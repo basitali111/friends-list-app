@@ -4,9 +4,9 @@
     <ul>
         <li><a href="">Home</a></li>
         <li><%= link_to "About us", home_about_path %></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Login</a></li>
-        <li><a href="">Register</a></li>
+        <li><%= link_to "edit profile", edit_user_registration_path %></li>
+        <li><%= link_to "login", new_user_session_path %></li>
+        <li><%= link_to "Register", new_user_registration_path %></li>
     </ul>
 </nav>
 </header>
